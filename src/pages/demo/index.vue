@@ -18,7 +18,15 @@ export default {
       // 绘制图表
       myChart.setOption({
         title: {
-          text: 'ECharts 入门示例'
+          text: 'ECharts 入门示例',
+          link: 'https:www.baidu.com',
+          textStyle: {
+            color: 'red',
+            fontSize: '20',
+          },
+          textAlign: 'left',
+          left: 'center',
+          top: '15'
         },
         tooltip: {},
         xAxis: {
